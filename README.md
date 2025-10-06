@@ -65,12 +65,15 @@ pip install pandas sqlite3
 Place your MovieLens CSV files in the data/ folder:
 
 kotlin
-
+```
 data/
  ├─ movies.csv
  ├─ ratings.csv
  └─ tags.csv
-Run the loader script:
+
+ ```
+
+### Run the loader script:
 
 ```bash
 python load_data.py
@@ -83,7 +86,7 @@ This creates a local database at data/movies.db.
 python analyze.py
 ```
 
-This script:
+### This script:
 
 Calculates top-rated and most-rated movies
 
@@ -96,28 +99,30 @@ Categorizes movies by average rating
 Exports all insights as .csv files inside /analysis
 
 ## Power BI Visualization
+
 Once the CSVs are generated, open Power BI and import them from the analysis/ folder.
 
 Recommended dashboards:
 
-Top 20 Rated Movies
+🎥 Top 20 Rated Movies
 
-Rating Distribution
+⭐ Rating Distribution
 
-Genre Popularity
+🎭 Genre Popularity
 
-Rating Trends Over Time
+🕒 Rating Trends Over Time
 
-Movie Categories (Excellent → Poor)
+🏆 Movie Categories (Excellent → Poor)
 
 Example Insights
-
-## Metric	Example
+```
+Metric	Example
 Top Movie	The Shawshank Redemption
 Common Rating	⭐ 4.0
 Popular Genre	Drama
 Rating Range	0.5 – 5.0
 Avg. Rating	~3.5
+```
 
 ## Educational Focus
 
