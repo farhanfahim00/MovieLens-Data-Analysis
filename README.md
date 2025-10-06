@@ -42,7 +42,7 @@ The dataset is provided by [GroupLens](https://grouplens.org/datasets/movielens/
 ---
 
 ##  Project Structure
-
+```
 📦 movielens-sqlite-pandas-powerbi
 ┣ 📂 data/ # Raw MovieLens CSVs (movies.csv, ratings.csv, tags.csv)
 ┣ 📂 analysis/ # Output CSVs from SQL analytics
@@ -50,6 +50,7 @@ The dataset is provided by [GroupLens](https://grouplens.org/datasets/movielens/
 ┣ 📜 analyze.py # Runs analytical SQL queries and exports results
 ┣ 📜 PowerBI_Report.pbix # (Optional) Power BI dashboard file
 ┗ 📜 README.md
+```
 
 
 ##  How to Run
