@@ -1,4 +1,4 @@
-# --- Python ---
+
 __pycache__/
 *.pyc
 *.pyo
@@ -10,38 +10,35 @@ env/
 .venv/
 .DS_Store
 
-# --- Jupyter / IDE Configs ---
+
 .ipynb_checkpoints/
 .vscode/
 .idea/
 *.code-workspace
 
-# --- SQLite Database ---
+
 data/movies.db
 
-# --- CSV / Analysis Exports ---
+
 analysis/*.csv
 *.csv
 
-# --- MovieLens Raw Data ---
+
 data/*.csv
-!data/README.md   # Keep a placeholder readme if you want the folder to stay visible
+!data/README.md 
 
-# --- Power BI Files (large/binary) ---
-*.pbix
-*.pbit
 
-# --- Logs & Temp Files ---
+
 *.log
 *.tmp
 *.bak
 
-# --- OS Files ---
+
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# --- Python virtual environment ---
+
 *.egg-info/
 build/
 dist/
