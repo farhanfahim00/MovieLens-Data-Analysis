@@ -48,10 +48,14 @@ The dataset is provided by [GroupLens](https://grouplens.org/datasets/movielens/
 ┣ 📂 analysis/ # Output CSVs from SQL analytics
 ┣ 📜 load_data.py # Loads and cleans CSVs, builds SQLite database
 ┣ 📜 analyze.py # Runs analytical SQL queries and exports results
-┣ 📜 PowerBI_Report.pbix # (Optional) Power BI dashboard file
+┣ 📜 PowerBI_Report.pbix
 ┗ 📜 README.md
 ```
 
+##  Power-Bi Visualisation
+![Movielens Data Analysis Dashboard](Powerbi1.png)
+![Genre Analysis](Powerbi2.png)
+![Rating Insights Dashboard](Powerbi3.png)
 
 ##  How to Run
 
