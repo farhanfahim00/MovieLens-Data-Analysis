@@ -53,9 +53,9 @@ The dataset is provided by [GroupLens](https://grouplens.org/datasets/movielens/
 ```
 
 ##  Power-Bi Visualisation
-![Movielens Data Analysis Dashboard](Powerbi1.png)
-![Genre Analysis](Powerbi2.png)
-![Rating Insights Dashboard](powerbi3.png)
+![Movielens Data Analysis Dashboard](images/Powerbi1.png)
+![Genre Analysis](images/Powerbi2.png)
+![Rating Insights Dashboard](images/powerbi3.png)
 
 ##  How to Run
 
